@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Nav from "./Nav";
 import Hero from "./Hero";
+import About from "./About";
 
 // const layoutStyle = {
 //   display: "flex",
@@ -19,10 +20,7 @@ const Layout = props => (
   <div className="Layout">
     <Nav/>
     <Hero/>
-    <Header/>
-    <div className="Content">
-      {props.children}
-    </div>
+    <About/>
     
   </div>
 );
