@@ -5,9 +5,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-image' : "url('/assets/img/Steves-Desk.jpg')",
+        'footer-image' : "url('/assets/img/Header-bg-pattern.jpg')",
       },
       height: {
-        'aboutHeight' : "527px",
+        'sectionHeight' : "527px",
+        'footerHeight' : "421px",
+        'postFooter' : "47px",
         'inherit' : 'inherit',
       },
       colors: {

@@ -2,6 +2,9 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Hero from "./Hero";
 import About from "./About";
+import Projects from "./Projects";
+import Footer from "./Footer";
+import PostFooter from "./PostFooter";
 
 // const layoutStyle = {
 //   display: "flex",
@@ -21,7 +24,9 @@ const Layout = props => (
     <Nav/>
     <Hero/>
     <About/>
-    
+    <Projects/>
+    <Footer/>
+    <PostFooter/>
   </div>
 );
 

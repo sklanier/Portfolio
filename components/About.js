@@ -1,5 +1,5 @@
 const About = () => (
-    <div className="w-full bg-primaryBlue h-aboutHeight flex">
+    <div className="w-full bg-primaryBlue h-sectionHeight flex">
         <div className="aboutStyles w-4/12">
             <h1>about</h1>
         </div>
