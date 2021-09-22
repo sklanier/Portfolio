@@ -8,3 +8,13 @@
         src: url(../public/assets/fonts/AvenirNext/AvenirNext-Regular.woff) format("woff");
     }
 }
+
+@layer utilities {
+    .navText {
+        font-family: Avenir Next;
+        font-weight: 700;
+        font-size: .7rem;
+        letter-spacing: 2px;
+        text-transform: uppercase; 
+    }
+}
