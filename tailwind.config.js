@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         'primaryBlue' : "#174AE6",
       },
+      fontFamily: {
+        'avenir' : 'Avenir Next'
+      }
     },
   },
   variants: {
