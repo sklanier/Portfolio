@@ -11,10 +11,14 @@
 
 @layer utilities {
     .navText {
+        color: white;
         font-family: Avenir Next;
         font-weight: 700;
         font-size: .7rem;
         letter-spacing: 2px;
         text-transform: uppercase; 
+    }
+    .navText:hover {
+        color: #174AE6;
     }
 }
