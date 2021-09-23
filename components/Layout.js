@@ -2,9 +2,9 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Hero from "./Hero";
 import About from "./About";
-import Projects from "./Projects";
-import Footer from "./Footer";
-import PostFooter from "./PostFooter";
+import Projects from "./ProjectSection/Projects";
+import Footer from "./FooterSection/Footer";
+import PostFooter from "./FooterSection/PostFooter";
 
 // const layoutStyle = {
 //   display: "flex",
