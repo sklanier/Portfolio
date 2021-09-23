@@ -14,7 +14,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: 'assets/img/portfolio/fullsize/Intelliflight-Fullsize.jpg'
+        image: '/assets/img/portfolio/fullsize/Intelliflight-Fullsize.jpg'
     },
     {
         id: 2,
@@ -28,7 +28,7 @@ export const project_data = [
         ],
         link: 'https://metronome.onrender.com/',
         repo: 'https://github.com/sklanier/ReactJS-Metronome',
-        image: 'assets/img/portfolio/fullsize/Metronome.png'
+        image: '/assets/img/portfolio/fullsize/Metronome.png'
     },
     {
         id: 3,
@@ -45,7 +45,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: 'assets/img/portfolio/fullsize/Bubl-Fullsize.jpg'
+        image: '/assets/img/portfolio/fullsize/Bubl-Fullsize.jpg'
     },
     {
         id: 4,
@@ -62,7 +62,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: 'assets/img/portfolio/fullsize/BSE-IDIA-InteractiveGallery.jpg'
+        image: '/assets/img/portfolio/fullsize/BSE-IDIA-InteractiveGallery.jpg'
     },
     {
         id: 5,
@@ -79,7 +79,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: 'assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
+        image: '/assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
     },
     {
         id: 6,
@@ -96,6 +96,6 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: 'assets/img/portfolio/fullsize/QuantumCode (1).jpg'
+        image: '/assets/img/portfolio/fullsize/QuantumCode (1).jpg'
     },
 ]
