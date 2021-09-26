@@ -96,6 +96,6 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/QuantumCode (1).jpg'
+        image: '/assets/img/portfolio/fullsize/QuantumCode.jpg'
     },
 ]
