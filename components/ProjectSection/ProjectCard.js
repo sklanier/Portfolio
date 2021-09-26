@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Overlay from '../Overlay';
 
 const ProjectCard = ({project}) => (
     
@@ -8,6 +8,7 @@ const ProjectCard = ({project}) => (
         height: '635px',
         width: '635px'
     }}>
+        <Overlay/>
 
     </div>
 );
