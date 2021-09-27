@@ -5,6 +5,7 @@ import About from "./About";
 import Projects from "./ProjectSection/Projects";
 import Footer from "./FooterSection/Footer";
 import PostFooter from "./FooterSection/PostFooter";
+import Scripts from './Scripts'
 
 // const layoutStyle = {
 //   display: "flex",
@@ -21,12 +22,14 @@ import PostFooter from "./FooterSection/PostFooter";
 
 const Layout = props => (
   <div className="Layout">
+    <Header/>
     <Nav/>
     <Hero/>
     <About/>
     <Projects/>
     <Footer/>
     <PostFooter/>
+    <Scripts/>
   </div>
 );
 
