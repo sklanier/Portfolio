@@ -1,5 +1,5 @@
 const About = () => (
-    <div className="w-full bg-primaryBlue h-sectionHeight flex">
+    <section id="about" className="w-full bg-primaryBlue h-sectionHeight flex">
         <div className="aboutStyles w-4/12">
             <h1>about</h1>
         </div>
@@ -9,7 +9,7 @@ const About = () => (
         <div className="aboutStyles w-4/12">
             <h1>talents</h1>
         </div>
-    </div>
+    </section>
 );
 
 export default About;
