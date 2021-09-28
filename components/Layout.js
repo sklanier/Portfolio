@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import Hero from "./Hero";
 import About from "./About";
 import Projects from "./ProjectSection/Projects";
-import Footer from "./FooterSection/Footer";
+import Contact from "./FooterSection/Contact";
 import PostFooter from "./FooterSection/PostFooter";
 import Scripts from './Scripts'
 
@@ -27,7 +27,7 @@ const Layout = props => (
     <Hero/>
     <About/>
     <Projects/>
-    <Footer/>
+    <Contact/>
     <PostFooter/>
     <Scripts/>
   </div>
