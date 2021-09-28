@@ -21,4 +21,34 @@
     .navText:hover {
         color: #174AE6;
     }
+
+    .heroText{
+        color: white;
+        font-family: Avenir Next;
+        font-size: 5rem;
+        line-height: 1.2;
+        margin-bottom: 8px;
+    }
+
+    .heroSub{
+        font-family: Avenir Next;
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .heroBtn{
+        padding: 1.25rem 2.25rem;
+        font-size: .65rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 10rem;
+        color: #fff;
+        background-color: #174ae7;
+        border-color: #174ae7;
+        font-family: Avenir Next;
+        letter-spacing: 2px;
+        margin: 5px;
+    }
 }

@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@types/react": "17.0.20",
+    "@types/react-anchor-link-smooth-scroll": "^1.0.2",
     "@types/react-scroll": "^1.8.3",
     "autoprefixer": "^10.3.4",
     "eslint": "7.32.0",
