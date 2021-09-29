@@ -51,4 +51,9 @@
         letter-spacing: 2px;
         margin: 5px;
     }
+
+    .footerTxt{
+        font-size: 10px;
+        color: #5F656D;
+    }
 }
