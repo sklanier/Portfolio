@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-    $("#hero").css("opacity", 1 - $(window).scrollTop() / 1000);
+    $("#hero").css("opacity", 1 - $(window).scrollTop() / 700);
 });
 
 $(window).scroll(function() {    
@@ -14,4 +14,4 @@ $(window).scroll(function() {
         $("#nav").removeClass("nav-scrolled");
         $(".navText").css("color", "white");
     }
-}); //missin
+});

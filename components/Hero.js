@@ -1,9 +1,9 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => (
-    <section className="bg-black">
+    <section className="bg-primaryBlue">
         <div id="hero" className="h-screen bg-hero-image bg-fixed bg-cover bg-center bg-no-repeat">
-            <div className="text-xl text-white flex justify-center items-center m-auto h-inherit">
+            <div className="text-xl text-white flex justify-center items-center m-auto h-screen">
                 <div className="text-center w-5/12">
                     <h2>I'm Steve, and I like to</h2>
                     <h1 className="heroText">develop + chill</h1>
@@ -13,6 +13,13 @@ const Hero = () => (
                 </div>
             </div>
         </div>
+        <div id="hero-subtext" className="text-xl text-white flex justify-center items-center -mt-80">
+                <div className="text-center w-5/12">
+                    <h2>I'm Steve, and I like to</h2>
+                    <h1 className="heroText">develop + chill</h1>
+                    <hr width="100px" className="m-auto"></hr>
+                </div>
+            </div>
     </section>
 );
 
