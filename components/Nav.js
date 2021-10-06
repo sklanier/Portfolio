@@ -16,7 +16,7 @@ const Nav = () => (
         <AnchorLink className="transition duration-500 navText" href="#projects">PROJECTS</AnchorLink>
         <AnchorLink className="transition duration-500 navText" href="#contact">CONTACT</AnchorLink>
       </div>
-      <a href="https://www.linkedin.com/in/steve-lanier-a12a1850/" target="_blank"><img src="assets/img/Linkedin-icon.svg"/></a>
+      <a href="https://www.linkedin.com/in/steve-lanier-a12a1850/" target="_blank"><img src="assets/img/Linkedin-Icon.svg"/></a>
     </div>
   </nav>
 );
