@@ -13,13 +13,6 @@ const Hero = () => (
                 </div>
             </div>
         </div>
-        <div id="hero-subtext" className="text-xl text-white flex justify-center items-center -mt-80">
-                <div className="text-center w-5/12">
-                    <h2>I'm Steve, and I like to</h2>
-                    <h1 className="heroText">develop + chill</h1>
-                    <hr width="100px" className="m-auto"></hr>
-                </div>
-            </div>
     </section>
 );
 
