@@ -4,8 +4,40 @@
 
 @layer base {
     @font-face {
-        font-family: Avenir Next;
-        src: url(../public/assets/fonts/AvenirNext/Regular/AvenirNext-Regular.woff) format("woff");
+        font-family: 'AvenirNext-Regular';
+        src:url(../public/assets/fonts/AvenirNext/Regular/AvenirNext-Regular.eot);
+        src:url(../public/assets/fonts/AvenirNext/Regular/AvenirNext-Regular.eot) format("embedded-opentype"),
+            url(../public/assets/fonts/AvenirNext/Regular/AvenirNext-Regular.svg) format("svg"),
+            url(../public/assets/fonts/AvenirNext/Regular/AvenirNext-Regular.ttf) format("truetype"),
+            url(../public/assets/fonts/AvenirNext/Regular/AvenirNext-Regular.woff) format("woff"),
+            url(../public/assets/fonts/AvenirNext/Regular/AvenirNext-Regular.woff2) format("woff2")
+    }
+    @font-face {
+        font-family: 'AvenirNext-Bold';
+        src:url(../public/assets/fonts/AvenirNext/Bold/AvenirNext-Bold.eot);
+        src:url(../public/assets/fonts/AvenirNext/Bold/AvenirNext-Bold.eot) format("embedded-opentype"),
+            url(../public/assets/fonts/AvenirNext/Bold/AvenirNext-Bold.svg) format("svg"),
+            url(../public/assets/fonts/AvenirNext/Bold/AvenirNext-Bold.ttf) format("truetype"),
+            url(../public/assets/fonts/AvenirNext/Bold/AvenirNext-Bold.woff) format("woff"),
+            url(../public/assets/fonts/AvenirNext/Bold/AvenirNext-Bold.woff2) format("woff2")
+    }
+    @font-face {
+        font-family: 'SourceCodePro-Regular';
+        src:url(../public/assets/fonts/SourceCodePro/Regular/SourceCodePro-Regular.eot);
+        src:url(../public/assets/fonts/SourceCodePro/Regular/SourceCodePro-Regular.eot) format("embedded-opentype"),
+            url(../public/assets/fonts/SourceCodePro/Regular/SourceCodePro-Regular.svg) format("svg"),
+            url(../public/assets/fonts/SourceCodePro/Regular/SourceCodePro-Regular.ttf) format("truetype"),
+            url(../public/assets/fonts/SourceCodePro/Regular/SourceCodePro-Regular.woff) format("woff"),
+            url(../public/assets/fonts/SourceCodePro/Regular/SourceCodePro-Regular.woff2) format("woff2")
+    }
+    @font-face {
+        font-family: 'SourceCodePro-Bold';
+        src:url(../public/assets/fonts/SourceCodePro/Bold/SourceCodePro-Bold.eot);
+        src:url(../public/assets/fonts/SourceCodePro/Bold/SourceCodePro-Bold.eot) format("embedded-opentype"),
+            url(../public/assets/fonts/SourceCodePro/Bold/SourceCodePro-Bold.svg) format("svg"),
+            url(../public/assets/fonts/SourceCodePro/Bold/SourceCodePro-Bold.ttf) format("truetype"),
+            url(../public/assets/fonts/SourceCodePro/Bold/SourceCodePro-Bold.woff) format("woff"),
+            url(../public/assets/fonts/SourceCodePro/Bold/SourceCodePro-Bold.woff2) format("woff2")
     }
 }
 
