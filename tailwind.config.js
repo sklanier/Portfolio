@@ -8,7 +8,7 @@ module.exports = {
         'footer-image' : "url('/assets/img/Header-bg-pattern.jpg')",
       },
       height: {
-        'sectionHeight' : "527px",
+        'sectionHeight' : "1000px",
         'footerHeight' : "421px",
         'postFooter' : "47px",
         'inherit' : 'inherit',
@@ -17,7 +17,8 @@ module.exports = {
         'primaryBlue' : "#174AE6",
       },
       fontFamily: {
-        'avenir' : 'Avenir Next'
+        'avenir' : 'Avenir Next',
+        'body' : 'Source Code Pro'
       }
     },
   },
