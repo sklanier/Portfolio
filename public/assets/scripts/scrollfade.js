@@ -5,12 +5,12 @@ $(window).scroll(function(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 100) {
+    if (scroll >= 70) {
         $("#nav").addClass("nav-scrolled");
         $(".navText").css("color", "black");
     }
 
-    if (scroll < 100) {
+    if (scroll < 70) {
         $("#nav").removeClass("nav-scrolled");
         $(".navText").css("color", "white");
     }
