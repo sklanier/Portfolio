@@ -17,8 +17,10 @@ module.exports = {
         'primaryBlue' : "#174AE6",
       },
       fontFamily: {
-        'avenir' : 'Avenir Next',
-        'body' : 'Source Code Pro'
+        'avenir' : 'AvenirNext-Regular',
+        'avenirBold' : 'AvenirNext-Bold',
+        'body' : 'SourceCodePro-Regular',
+        'bodyBold' : 'SourceCodePro-Bold'
       }
     },
   },
