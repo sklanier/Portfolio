@@ -4,7 +4,7 @@ const Hero = () => (
     <section className="bg-primaryBlue">
         <div id="hero" className="h-screen bg-hero-image bg-fixed bg-cover bg-center bg-no-repeat">
             <div className="text-xl text-white flex justify-center items-center m-auto h-screen">
-                <div className="text-center w-5/12">
+                <div className="text-center w-6/12 mt-20">
                     <h2>I'm steve, and I like to</h2>
                     <h1 className="heroText">develop <span className="font-avenir">+</span> chill</h1>
                     <hr width="100px" className="m-auto"></hr>
