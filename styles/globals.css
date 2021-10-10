@@ -98,7 +98,7 @@
 .aboutTitle{
     color: white;
     font-family: Avenir Next;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 8px;
     font-weight: 500;
@@ -115,6 +115,6 @@
     text-align: center;
     background: #3C66EB;
     color: #fff;
-    padding: 6px;
+    padding: 0px 10px 0px 10px;
     line-height: 38px;
 }
