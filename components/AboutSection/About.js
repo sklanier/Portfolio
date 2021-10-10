@@ -1,3 +1,5 @@
+import Skills from './Skills/Skills'
+
 const About = () => (
     <section id="about" className="w-full bg-primaryBlue h-sectionHeight flex">
         <div className="px-24 w-4/12 text-left">
@@ -11,7 +13,7 @@ const About = () => (
         </div>
         <div className="flex items-center justify-center px-24 w-4/12">
             <h1 className="aboutTitle underline">technical skills</h1>
-            
+            <Skills/>
         </div>
         <div className="px-24 w-4/12 text-right">
         <h1 className="aboutTitle">talents</h1>

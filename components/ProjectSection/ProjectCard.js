@@ -1,6 +1,3 @@
-
-
-
 /*
 Rules for DECLARING a React component:
     - Name is capitalized
@@ -17,6 +14,7 @@ Rules for USING a React component:
     - Instead of invoking with '( )' we use '< />'
     - Arguments are passed as attributes
 */ 
+
 const ProjectCard = ({project}) => (
     
     <div style={{
