@@ -20,7 +20,7 @@ import Scripts from './Scripts'
 //   flexDirection: "column"
 // };
 
-const Layout = props => (
+const Layout = () => (
   <div className="Layout">
     <Header/>
     <Nav/>

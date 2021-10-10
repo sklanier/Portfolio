@@ -1,5 +1,5 @@
 const Header = () => (
-    <div className="Header">
+    <div id="header" className="Header">
         
     </div>
 );
