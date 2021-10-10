@@ -11,8 +11,8 @@ const About = () => (
                 maybe something about how I love my wifey :) 
             </div>
         </div>
-        <div className="flex items-center justify-center px-24 w-4/12">
-            <h1 className="aboutTitle underline">technical skills</h1>
+        <div className="flex-col items-center justify-center px-12 w-4/12 mt-36">
+            <h1 className="aboutTitle underline text-center">technical skills</h1>
             <Skills/>
         </div>
         <div className="px-24 w-4/12 text-right">
