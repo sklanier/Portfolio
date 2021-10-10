@@ -23,7 +23,6 @@ const ProjectCard = ({project}) => (
         height: '635px',
         width: '635px'
     }}>
-        
 
     </div>
 );

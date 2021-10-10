@@ -1,7 +1,10 @@
-const SkillCard = ({skill}) => (
-    <div className="h-6">
-        <h1>{skill}</h1>
-    </div>
-);
+const SkillCard = ({skill}) => {
+    return(
+        <div>
+            console.log({skill})
+            <h1>{skill}</h1>
+        </div>
+    )
+};
 
 export default SkillCard;
