@@ -109,12 +109,12 @@
 }
 
 .skillCard{
-    margin:4px;
+    margin:2px;
     font-family: SourceCodePro-Regular;
     font-size: 12.8px;
     text-align: center;
     background: #3C66EB;
     color: #fff;
     padding: 0px 10px 0px 10px;
-    line-height: 38px;
+    line-height: 30px;
 }
