@@ -26,9 +26,9 @@ const About = () => (
             <h1 className="aboutTitle underline text-center">technical skills</h1>
             <Skills/>
         </div>
-        <div className="px-24 w-4/12 text-right mt-96">
-            <div className="h-24"></div>
-            <h1 className="aboutTitle">talents</h1>
+        <div className="px-24 w-4/12 text-right">
+            <img src="assets/img/declare_bankruptcy.gif"/>
+            <h1 className="aboutTitle mt-80">talents</h1>
             <p className="heroSub">
                 More than making stunning web content and software applications, 
                 I enjoy working with people. I believe wholeheartedly that coding 
