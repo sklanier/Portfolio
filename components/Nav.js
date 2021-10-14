@@ -12,7 +12,8 @@ const Nav = () => (
     <div className="bg-transparent flex justify-around w-8/12 m-auto" style={navStyles.navBar}>
       <a href="https://www.github.com/sklanier" target="_blank"><img src="assets/img/Github-icon.svg"/></a>
       <div className="flex justify-evenly w-3/12">
-        <AnchorLink className="transition duration-500 navText" href="#header">ABOUT</AnchorLink>
+        <AnchorLink className="transition duration-500 navText" href="#header">&#123;TOP&#125;</AnchorLink>
+        <AnchorLink className="transition duration-500 navText" href="#about">ABOUT</AnchorLink>
         <AnchorLink className="transition duration-500 navText" href="#projects">PROJECTS</AnchorLink>
         <AnchorLink className="transition duration-500 navText" href="#contact">CONTACT</AnchorLink>
       </div>
