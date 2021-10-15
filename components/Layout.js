@@ -31,7 +31,6 @@ const Layout = () => (
     <Contact/>
     <PostFooter/>
     <Scripts/>
-    <TopButton/>
   </div>
 );
 
