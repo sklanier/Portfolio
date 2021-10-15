@@ -6,6 +6,7 @@ import Projects from "./ProjectSection/Projects";
 import Contact from "./FooterSection/Contact";
 import PostFooter from "./FooterSection/PostFooter";
 import Scripts from './Scripts'
+import TopButton from './TopButton';
 
 // const layoutStyle = {
 //   display: "flex",
@@ -30,6 +31,7 @@ const Layout = () => (
     <Contact/>
     <PostFooter/>
     <Scripts/>
+    <TopButton/>
   </div>
 );
 
