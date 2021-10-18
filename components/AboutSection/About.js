@@ -2,7 +2,7 @@ import Skills from './Skills/Skills'
 
 const About = () => (
     <section id="about">
-        <div className="w-full bg-primaryBlue h-sectionHeight flex">
+        <div className="w-full bg-primaryBlue h-sectionHeight flex px-16">
             <div className="px-24 w-4/12 text-left">
                 <h1 className="aboutTitle">about</h1>
                 <p className="heroSub">
