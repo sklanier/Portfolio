@@ -16,14 +16,9 @@ Rules for USING a React component:
 */ 
 
 const ProjectCard = ({project}) => (
-    
-    <div style={{
-        backgroundImage: `url(${project.image})`,
-        backgroundSize: 'contain',
-        height: '635px',
-        width: '635px'
-    }}>
-
+    <div className="p-5">
+        {console.log(project.image)}
+        <img className="bg-contain justify-center" src={project.image}/>
     </div>
 );
 
