@@ -2,7 +2,7 @@ import { project_data } from '../../data/project_data';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => (
-    <section id="projects" className="bg-black px-16">
+    <section id="projects" className="bg-black px-28">
         <div className="flex justify-around aboutTitle">
             <h1 className="pt-4">projects</h1>
             <hr className="w-8/12 mt-16"/>
