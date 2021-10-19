@@ -16,9 +16,9 @@ Rules for USING a React component:
 */ 
 
 const ProjectCard = ({project}) => (
-    <div className="p-5">
+    <div className="flex p-5">
         {console.log(project.image)}
-        <img className="bg-contain justify-center" src={project.image}/>
+        <img className="justify-center h-4/6 w-full my-auto" src={project.image}/>
     </div>
 );
 
