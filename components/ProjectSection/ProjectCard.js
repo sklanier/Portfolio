@@ -18,8 +18,8 @@ Rules for USING a React component:
 const ProjectCard = ({project}) => (
     <div className="flex-col p-5">
         <img className="justify-center h-4/6 w-full my-auto" src={project.image}/>
-        <h2 className="text-white mt-10">{project.title}</h2>
-        <p className="text-white mt-10">{project.desc}</p>
+        <h2 className="projectTitle mt-10">{project.title}</h2>
+        <p className="projectDesc mt-10">{project.desc}</p>
     </div>
 );
 

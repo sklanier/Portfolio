@@ -69,6 +69,19 @@
     margin-bottom: 55px;
 }
 
+.projectTitle{
+    color: white;
+    font-family: AvenirNext-DemiBold;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.projectDesc{
+    color: #6D6D6D;
+    font-family: SourceCodePro-Regular;
+    font-size: 14px;
+}
+
 .email{
     font-family: SourceCodePro-Regular;
     font-size: 14px;
