@@ -12,6 +12,7 @@ module.exports = {
         'footerHeight' : "421px",
         'postFooter' : "47px",
         'inherit' : 'inherit',
+        'projectCard' : '800px',
       },
       colors: {
         'primaryBlue' : "#174AE6",
