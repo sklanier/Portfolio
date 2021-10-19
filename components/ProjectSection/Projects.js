@@ -3,10 +3,13 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => (
     <section id="projects" className="bg-black px-28">
-        <div className="flex justify-around aboutTitle">
+        <div className="flex justify-between aboutTitle py-8 px-4">
             <h1 className="pt-4">projects</h1>
             <hr className="w-8/12 mt-16"/>
-            <h2 className="pt-4">my github</h2>
+            <div className="flex w-1/6">
+                <img className="w-2/12" src="assets/img/Github-icon.svg"/>
+                <h2 className="pt-8 text-2xl ">See my Github</h2>
+            </div>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-0">
             {project_data.map((project) => (
