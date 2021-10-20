@@ -8,7 +8,7 @@ const Projects = () => (
             <hr className="w-8/12 mt-16"/>
             <div className="flex w-1/6">
                 <img className="w-2/12" src="assets/img/Github-icon.svg"/>
-                <h2 className="pt-8 text-2xl ">See my Github</h2>
+                <h2 className="pt-8 text-2xl">See my Github</h2>
             </div>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-0">
