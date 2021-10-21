@@ -14,7 +14,7 @@ Rules for USING a React component:
     - Instead of invoking with '( )' we use '< />'
     - Arguments are passed as attributes
 */ 
-import router, { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const ProjectCard = ({project}) => (
     <div className="flex-col p-5 h-projectCard">
@@ -27,24 +27,3 @@ const ProjectCard = ({project}) => (
 );
 
 export default ProjectCard;
-
-const Link = ({ children, href }) => {
-    return (
-        <a
-            href="#"
-            onClick={(e) => {
-                e.preventDefault()
-                router.push(href)
-            }}
-        >
-            {children}
-            <style jsx>{`
-                a {
-                    margin-right: 10px
-                }
-            `}</style>
-        </a>
-    )
-}
-
-console.log(router)
