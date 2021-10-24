@@ -19,7 +19,7 @@ const About = () => (
                     for success.
                 </p>
                 <img src="assets/img/SteveLanier-Signature@2x.png"/>
-                <div className="mt-28 border-2 rounded-full h-60 w-60 flex items-center justify-center text-center p-8 text-white">
+                <div className="mt-24 border-2 rounded-full h-60 w-60 flex items-center justify-center text-center p-8 text-white">
                     maybe something about how I love my wifey :) 
                 </div>
             </div>
