@@ -2,10 +2,10 @@ import { useRouter } from "next/router";
 
 const Project = () => {
     const router = useRouter();
-    const { project } = router.query;
+    const { title } = router.query;
     return (
         <div>
-        <h1>{project}</h1>
+        <h1>{title}</h1>
         </div>
     );
 }
