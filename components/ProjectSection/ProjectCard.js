@@ -20,11 +20,7 @@ const PROJECT_POST_ID = "Projects/[id]";
 
 const ProjectCard = ({project}) => (
     <div className="flex-col p-5 h-projectCard">
-        <Link href={{
-            pathname: PROJECT_POST_ID,
-            query: { id: project.id }
-            }}
-        >
+        <Link key={project.id} as={`/Projects/${project.title}`} href={`/pages/projects/${project.id}`}>
             <img className="object-cover h-4/6 w-full my-auto" src={project.image}/>
         </Link>
         <h2 className="projectTitle mt-10">{project.title}</h2>
