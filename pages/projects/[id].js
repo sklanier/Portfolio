@@ -1,13 +1,6 @@
-import { project_data } from "../../data/project_data"
+import { useRouter } from "next/router";
 
-const post = project_data[0]
-
-export default function MyDynamicPage({ post }) {
-   console.log(project_data[0])
-   console.log({post})
-   return <div>My example is {project_data[0].title}</div>
- }
- 
- MyDynamicPage.getInitialProps = ({ query: { post } }) => {
-   return { post }
- }
+export default function PostPage() {
+   const router = useRouter();
+   return <div>Post #{router.query.id}</div>;
+}
