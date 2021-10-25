@@ -1,29 +1,13 @@
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import { project_data } from "../../data/project_data"
 
-export default function Post({ postData }) {
-   return (
-      <h1>
-         {postData.id}
-         <br />
-         {postData.title}
-         <br />
-         {postData.date}
-      </h1>
-   )
-}
-export async function getStaticPaths() {
-   const paths = getAllPostIds()
-   return {
-      paths,
-      fallback: false
-   }
-}
+const post = project_data[0]
 
-export async function getStaticProps({ params }) {
-   const postData = getPostData(params.id)
-      return {
-      props: {
-         postData
-      }
-   }
-}
+export default function MyDynamicPage({ post }) {
+   console.log(project_data[0])
+   console.log({post})
+   return <div>My example is {project_data[0].title}</div>
+ }
+ 
+ MyDynamicPage.getInitialProps = ({ query: { post } }) => {
+   return { post }
+ }
