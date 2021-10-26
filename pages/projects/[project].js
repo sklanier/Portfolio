@@ -1,9 +1,13 @@
 import { useRouter } from "next/router";
+import dynamic from 'next/dynamic'
 
-export default function ProjectPage() {
+const Nav = dynamic(() => import('../../components/Nav'), { ssr: true });
+
+const ProjectPage = () => {
    const router = useRouter();
    return (
       <section id="projectWrapper" className="bg-black h-screen">
+         <Nav/>
          <div className="flex mx-20 h-screen">
             <div className="w-6/12 flex items-center">
                <img src={router.query.image}/>
@@ -17,3 +21,5 @@ export default function ProjectPage() {
       </section>
    );
 }
+
+export default ProjectPage;
