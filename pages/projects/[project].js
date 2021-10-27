@@ -8,8 +8,8 @@ const ProjectPage = () => {
    return (
       <section id="projectWrapper" className="bg-black h-screen">
          <Nav/>
-         <div className="flex mx-20 h-screen">
-            <div className="w-6/12 flex items-center">
+         <div className="flex mx-40 h-screen">
+            <div className="w-6/12 flex items-center px-20">
                <img src={router.query.image}/>
             </div>
 
