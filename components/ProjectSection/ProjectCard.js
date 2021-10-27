@@ -22,9 +22,9 @@ const ProjectCard = ({project}) => (
             pathname: '/projects/[project]',
             query: {
                 id: project.id,
-                project: project.title,
+                title: project.title,
                 image: project.image,
-                description: project.description,
+                description: project.desc,
                 technologies: project.technologies,
                 github: project.github,
                 website: project.website,
