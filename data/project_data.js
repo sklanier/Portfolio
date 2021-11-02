@@ -82,9 +82,9 @@ export const project_data = [
         image: '/assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
     },
     {
-        id: 6,
-        title: 'Quantum Simulations',
-        date: 'February 2020',
+        id: 4,
+        title: 'BSU IDIA Interactive Art Gallery',
+        date: 'February 2010',
         desc: 'This application was developed as a way for pilots to upload and share PIREPs (pilot reports). This project incorporates a custom UI with the popular Google Maps API to provide pilots with a unique, real-world flight planning experience.',
         tech: [
             'Google Maps API',
@@ -96,6 +96,58 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/QuantumCode.jpg'
+        image: '/assets/img/portfolio/fullsize/BSE-IDIA-InteractiveGallery.jpg'
     },
+    {
+        id: 5,
+        title: 'Heart Creative & Radical Goodness',
+        date: 'May 2020',
+        desc: 'This application was developed as a way for pilots to upload and share PIREPs (pilot reports). This project incorporates a custom UI with the popular Google Maps API to provide pilots with a unique, real-world flight planning experience.',
+        tech: [
+            'Google Maps API',
+            'ReactJS',
+            'Auth0',
+            'Render',
+            'PostgreSQL',
+            'NodeJS'
+        ],
+        link: 'https://www.intelliflight.app/',
+        repo: 'https://github.com/labs13-intelliflight',
+        image: '/assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
+    },
+    {
+        id: 6,
+        title: 'Cointech Analytics',
+        date: 'February 2010',
+        desc: 'This application was developed as a way for pilots to upload and share PIREPs (pilot reports). This project incorporates a custom UI with the popular Google Maps API to provide pilots with a unique, real-world flight planning experience.',
+        tech: [
+            'Google Maps API',
+            'ReactJS',
+            'Auth0',
+            'Render',
+            'PostgreSQL',
+            'NodeJS'
+        ],
+        link: 'https://www.intelliflight.app/',
+        repo: 'https://github.com/labs13-intelliflight',
+        image: '/assets/img/portfolio/fullsize/BSE-IDIA-InteractiveGallery.jpg'
+    },
+    {
+        id: 7,
+        title: 'Honeyglow',
+        date: 'May 2020',
+        desc: 'This application was developed as a way for pilots to upload and share PIREPs (pilot reports). This project incorporates a custom UI with the popular Google Maps API to provide pilots with a unique, real-world flight planning experience.',
+        tech: [
+            'Google Maps API',
+            'ReactJS',
+            'Auth0',
+            'Render',
+            'PostgreSQL',
+            'NodeJS'
+        ],
+        link: 'https://www.intelliflight.app/',
+        repo: 'https://github.com/labs13-intelliflight',
+        image: '/assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
+    },
+    
 ]
