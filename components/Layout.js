@@ -1,4 +1,3 @@
-import Header from "./Header";
 import Nav from "./Nav";
 import Hero from "./Hero";
 import About from "./AboutSection/About";
@@ -6,7 +5,6 @@ import Projects from "./ProjectSection/Projects";
 import Contact from "./FooterSection/Contact";
 import PostFooter from "./FooterSection/PostFooter";
 import Scripts from './Scripts'
-import TopButton from './TopButton';
 
 // const layoutStyle = {
 //   display: "flex",
@@ -23,7 +21,6 @@ import TopButton from './TopButton';
 
 const Layout = () => (
   <div className="Layout">
-    <Header/>
     <Nav/>
     <Hero/>
     <About/>
