@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from "react";
+import SkillCard from "../../components/AboutSection/Skills/SkillCard";
+import { v4 } from 'uuid';
 
 const Nav = dynamic(() => import('../../components/Nav'), { ssr: false });
 
@@ -20,6 +22,11 @@ function ProjectPage() {
                   <h1 className="text-2xl text-white font-bold mb-10">{router.query.title}</h1>
                </div>
                <p className="text-white projectDesc">{router.query.description}</p>
+               <div className="flex flex-wrap mt-10">
+                  {router.query.technologies.map((skill) => (
+                     <SkillCard key={v4()} skill={skill}/>
+                  ))}
+               </div>
             </div>
          </div>
       </section>

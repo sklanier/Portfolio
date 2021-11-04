@@ -25,7 +25,7 @@ const ProjectCard = ({project}) => (
                 title: project.title,
                 image: project.image,
                 description: project.desc,
-                technologies: project.technologies,
+                technologies: project.tech,
                 github: project.github,
                 website: project.website,
                 date: project.date
