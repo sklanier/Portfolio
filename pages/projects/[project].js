@@ -3,9 +3,28 @@ import dynamic from 'next/dynamic'
 import { useState, useEffect } from "react";
 import SkillCard from "../../components/AboutSection/Skills/SkillCard";
 import { v4 } from 'uuid';
+import { CodeBlock } from '@atlaskit/code';
 
 const Nav = dynamic(() => import('../../components/Nav'), { ssr: false });
 
+const codeText = `// React Component
+class HelloMessage extends React.Component {
+   render() {
+      return (
+         <div>
+         Hello {this.props.name}
+         </div>
+      );
+   }
+   }
+
+   ReactDOM.render(
+   <HelloMessage name="Taylor" />,
+   mountNode
+);`;
+const Code = () => {
+   return <CodeBlock language="jsx" text={codeText}/>;
+ };
 
 function ProjectPage() {
    const router = useRouter();
@@ -28,6 +47,9 @@ function ProjectPage() {
                   ))}
                </div>
             </div>
+         </div>
+         <div className="p-40 -mt-60 bg-black">
+            <Code/>
          </div>
       </section>
    );
