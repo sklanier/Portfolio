@@ -21,7 +21,26 @@ class HelloMessage extends React.Component {
    ReactDOM.render(
    <HelloMessage name="Taylor" />,
    mountNode
-);`;
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`;
 const Code = () => {
    return <CodeBlock language="jsx" text={codeText}/>;
  };
@@ -48,8 +67,10 @@ function ProjectPage() {
                </div>
             </div>
          </div>
-         <div className="p-40 -mt-60 bg-black">
-            <Code/>
+         <div className="bg-black">
+            <div className="w-12/12 p-44 -mt-60 bg-black">
+               <Code/>
+            </div>
          </div>
       </section>
    );
