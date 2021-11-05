@@ -6,6 +6,7 @@ import { v4 } from 'uuid';
 import { CodeBlock } from '@atlaskit/code';
 
 const Nav = dynamic(() => import('../../components/Nav'), { ssr: false });
+const PostFooter = dynamic(() => import('../../components/FooterSection/PostFooter'), { ssr: false });
 
 const codeText = `// React Component
 class HelloMessage extends React.Component {
@@ -72,6 +73,7 @@ function ProjectPage() {
                <Code/>
             </div>
          </div>
+         <PostFooter/>
       </section>
    );
 }
