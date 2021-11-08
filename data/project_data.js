@@ -97,7 +97,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/BSE-IDIA-InteractiveGallery.jpg'
+        image: '/assets/img/portfolio/fullsize/CoinTech.jpg'
     },
     {
         id: 7,
@@ -114,7 +114,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
+        image: '/assets/img/portfolio/fullsize/Honeyglow.jpg'
     },
     {
         id: 8,
@@ -131,7 +131,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
+        image: '/assets/img/portfolio/fullsize/AdrianeJones.jpg'
     },
     
 ]
