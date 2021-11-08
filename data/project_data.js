@@ -14,7 +14,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/Intelliflight-Fullsize.jpg'
+        image: '/assets/img/portfolio/fullsize/Intelliflight.jpg'
     },
     {
         id: 2,
@@ -45,42 +45,9 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/Bubl-Fullsize.jpg'
+        image: '/assets/img/portfolio/fullsize/Bubl.jpg'
     },
-    {
-        id: 4,
-        title: 'BSU IDIA Interactive Art Gallery',
-        date: 'February 2010',
-        desc: 'This application was developed as a way for pilots to upload and share PIREPs (pilot reports). This project incorporates a custom UI with the popular Google Maps API to provide pilots with a unique, real-world flight planning experience.',
-        tech: [
-            'Google Maps API',
-            'ReactJS',
-            'Auth0',
-            'Render',
-            'PostgreSQL',
-            'NodeJS'
-        ],
-        link: 'https://www.intelliflight.app/',
-        repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/BSE-IDIA-InteractiveGallery.jpg'
-    },
-    {
-        id: 5,
-        title: 'Clean as a Whistle',
-        date: 'May 2020',
-        desc: 'This application was developed as a way for pilots to upload and share PIREPs (pilot reports). This project incorporates a custom UI with the popular Google Maps API to provide pilots with a unique, real-world flight planning experience.',
-        tech: [
-            'Google Maps API',
-            'ReactJS',
-            'Auth0',
-            'Render',
-            'PostgreSQL',
-            'NodeJS'
-        ],
-        link: 'https://www.intelliflight.app/',
-        repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
-    },
+    
     {
         id: 4,
         title: 'BSU IDIA Interactive Art Gallery',
@@ -113,7 +80,7 @@ export const project_data = [
         ],
         link: 'https://www.intelliflight.app/',
         repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/CleanAsAWhistle-Project.jpg'
+        image: '/assets/img/portfolio/fullsize/HeartCreative.jpg'
     },
     {
         id: 6,
