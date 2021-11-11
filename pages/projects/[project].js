@@ -25,6 +25,11 @@ class HelloMessage extends React.Component {
 );
 
 
+
+
+
+
+
 `;
 const Code = () => {
    return <CodeBlock language="jsx" text={codeText}/>;
