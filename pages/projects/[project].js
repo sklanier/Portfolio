@@ -30,9 +30,9 @@ class HelloMessage extends React.Component {
 `;
 const Code = () => {
    return <CodeBlock language="jsx" text={codeText}/>;
- };
+};
 
-function ProjectPage() {
+const ProjectPage = () => {
    const router = useRouter();
 
    return (
