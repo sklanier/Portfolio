@@ -48,6 +48,7 @@ const ProjectPage = () => {
                </div>
                <p className="text-white projectDesc">{router.query.description}</p>
                <div className="flex flex-wrap mt-10">
+                  {console.log(router.query.technologies)}
                   {router.query.technologies.map((skill) => (
                      <SkillCard key={v4()} skill={skill}/>
                   ))}
