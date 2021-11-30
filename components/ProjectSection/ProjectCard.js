@@ -18,19 +18,7 @@ import Link from 'next/link'
 
 const ProjectCard = ({project}) => (
     <div className="flex-col p-5 h-projectCard">
-        <Link as={`/projects/${project.title}`} href={{
-            pathname: '/projects/[project]',
-            query: {
-                id: project.id,
-                title: project.title,
-                image: project.image,
-                description: project.desc,
-                technologies: project.tech,
-                github: project.github,
-                website: project.website,
-                date: project.date
-            }
-        }}>
+        <Link href={`${project.title}`} as={`/projects/${project.title}`}>
             <img className="object-cover h-4/6 w-full my-auto" src={project.image}/>
         </Link>
         <h2 className="projectTitle mt-10">{project.title}</h2>
