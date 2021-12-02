@@ -27,7 +27,7 @@ class HelloMessage extends React.Component {
    mountNode
 );
 
-
+ 
 
 
 `;
