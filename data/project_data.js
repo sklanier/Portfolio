@@ -133,22 +133,5 @@ export const project_data = [
         repo: 'https://github.com/labs13-intelliflight',
         image: '/assets/img/portfolio/fullsize/AdrianeJones.jpg'
     },
-    {
-        id: 8,
-        title: 'Adriane E Jones',
-        date: 'May 2020',
-        desc: 'This application was developed as a way for pilots to upload and share PIREPs (pilot reports). This project incorporates a custom UI with the popular Google Maps API to provide pilots with a unique, real-world flight planning experience.',
-        tech: [
-            'Google Maps API',
-            'ReactJS',
-            'Auth0',
-            'Render',
-            'PostgreSQL',
-            'NodeJS'
-        ],
-        link: 'https://www.intelliflight.app/',
-        repo: 'https://github.com/labs13-intelliflight',
-        image: '/assets/img/portfolio/fullsize/AdrianeJones.jpg'
-    },
     
 ]
