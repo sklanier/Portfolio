@@ -7,7 +7,7 @@ const navStyles = {
   }
 }
 
-
+//maybe blank spaces don't get counted
 
 const Nav = () => (
   <nav id="nav" className="transition duration-500 z-10 bg-transparent fixed top-0 left-0 right-0">
