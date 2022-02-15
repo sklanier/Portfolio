@@ -1,6 +1,6 @@
 import { project_data } from '../../data/project_data';
 import ProjectCard from './ProjectCard';
-import { AppProvider } from '../components/Context';
+import { AppProvider } from '../Context';
 
 
 const Projects = () => (
