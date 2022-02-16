@@ -15,7 +15,7 @@ const Nav = () => (
       <div className="flex justify-evenly w-3/12">
         <AnchorLink className="transition duration-500 navText" href="#about">ABOUT</AnchorLink>
         <Link href="/projects">
-          <a className="navText">PROJECTS</a>
+          <a className="transition duration-500 navText">PROJECTS</a>
         </Link>
         <AnchorLink className="transition duration-500 navText" href="#contact">CONTACT</AnchorLink>
       </div>
