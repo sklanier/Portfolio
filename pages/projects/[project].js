@@ -36,10 +36,11 @@ const Code = () => {
    return <CodeBlock language="jsx" text={codeText}/>;
 };
 
+
 const ProjectPage = () => {
    const router = useRouter();
    // console.log(router.asPath);
-   const [project]  = useState(project_data.find(project => project.title === router.query.title));
+   const [project] = useState(project_data.find(project => project.title === router.query.title));
    
 
 
