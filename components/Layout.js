@@ -1,7 +1,6 @@
 import Nav from "./Nav";
 import Hero from "./Hero";
 import About from "./AboutSection/About";
-import Projects from "../pages/projects";
 import Contact from "./FooterSection/Contact";
 import PostFooter from "./FooterSection/PostFooter";
 import Scripts from './Scripts'
@@ -12,7 +11,6 @@ const Layout = () => (
     <Nav/>
     <Hero/>
     <About/>
-    <Projects/>
     <Contact/>
     <PostFooter/>
     <Scripts/>

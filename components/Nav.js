@@ -1,4 +1,5 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Link from 'next/link'
 
 const navStyles = {
   navBar: {
@@ -13,7 +14,9 @@ const Nav = () => (
       <a href="https://www.github.com/sklanier" target="_blank"><img src="../assets/img/Github-icon.svg"/></a>
       <div className="flex justify-evenly w-3/12">
         <AnchorLink className="transition duration-500 navText" href="#about">ABOUT</AnchorLink>
-        <AnchorLink className="transition duration-500 navText" href="#projects">PROJECTS</AnchorLink>
+        <Link href="/projects">
+          <a className="navText">PROJECTS</a>
+        </Link>
         <AnchorLink className="transition duration-500 navText" href="#contact">CONTACT</AnchorLink>
       </div>
       <a href="https://www.linkedin.com/in/steve-lanier-a12a1850/" target="_blank"><img src="../assets/img/LinkedIn-Icon.svg"/></a>
