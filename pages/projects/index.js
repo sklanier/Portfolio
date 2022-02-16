@@ -1,16 +1,15 @@
 import { project_data } from '../../data/project_data';
-import ProjectCard from './ProjectCard';
+import ProjectCard from '../../components/ProjectSection/ProjectCard';
 
 export const getStaticProps = async () => {
     return {
         props: {
-            projects: project_data,
+            projectsArray: project_data,
         },
     };
 };
 
-
-const Projects = ({ projects }) => (
+const Projects = ({ projectsArray }) => (
     <section id="projects" className="bg-black px-28 -mt-10 pt-10">
         <div className="flex justify-between aboutTitle py-8 px-4">
             <h1 className="pt-4">projects</h1>
@@ -21,8 +20,8 @@ const Projects = ({ projects }) => (
             </div>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-0">
-            {projects.map((project) => (
-                <ProjectCard key={project.id} project={project} />
+            {projectsArray.map((p) => (
+                <ProjectCard key={p.id} project={p} />
             ))}
         </div>
     </section>
