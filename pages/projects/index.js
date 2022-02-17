@@ -20,8 +20,8 @@ const Projects = ({ projectsArray }) => (
             </div>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-0">
-            {projectsArray.map((p) => (
-                <ProjectCard key={p.id} project={p} />
+            {projectsArray.map((project) => (
+                <ProjectCard key={project.id} project={project}/>
             ))}
         </div>
     </section>
