@@ -9,17 +9,17 @@ const Nav = dynamic(() => import('../../components/Nav'), { ssr: false });
 const PostFooter = dynamic(() => import('../../components/FooterSection/PostFooter'), { ssr: false });
 
 export const getStaticProps = async ({ params }) => {
-   const projectList = project_data.filter(p => p.id.toString() === params.id);
+   const projectList = project_data.filter(p => p.title.toString() === params.title);
    return {
       props: {
-         project: projectList[0],
+         project: projectList,
       },
    };
 };
 
 export const getStaticPaths = async () => {
    const paths = project_data.map(p => ({
-      params: { id: p.id.toString() },
+      params: { project: p.title },
    }));
    return { paths, fallback: false };
 }
@@ -51,18 +51,18 @@ const Code = () => {
 };
 
 
-const ProjectPage = ({ project }) => (
+const ProjectPage = ({ params }) => (
    <section id="projectWrapper" className="bg-black h-screen">
       <Nav/>
       <div className="flex mx-40 h-screen">
          <div className="w-6/12 flex items-center px-10">
-            <img src={project.image} />
+            <img src={params.image} />
          </div>
          <div className="w-6/12 flex flex-col justify-center px-20">
             <div>
-               <h1 className="text-2xl text-white font-bold mb-10">{project.title}</h1>
+               <h1 className="text-2xl text-white font-bold mb-10">{params.title}</h1>
             </div>
-            <p className="text-white projectDesc">{project.desc}</p>
+            <p className="text-white projectDesc">{params.desc}</p>
             <div className="flex flex-wrap mt-10">
                
             </div>
