@@ -4,12 +4,12 @@ import ProjectCard from '../../components/ProjectSection/ProjectCard';
 export const getStaticProps = async () => {
     return {
         props: {
-            projectsArray: project_data,
+            project: project_data,
         },
     };
 };
 
-const Projects = ({ projectsArray }) => (
+const Projects = ({ project }) => (
     <section id="projects" className="bg-black px-28 -mt-10 pt-10">
         <div className="flex justify-between aboutTitle py-8 px-4">
             <h1 className="pt-4">projects</h1>
@@ -20,8 +20,8 @@ const Projects = ({ projectsArray }) => (
             </div>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-0">
-            {projectsArray.map((project) => (
-                <ProjectCard key={project.id} project={project}/>
+            {project.map((p) => (
+                <ProjectCard key={p.id} project={p}/>
             ))}
         </div>
     </section>

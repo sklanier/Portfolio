@@ -9,7 +9,7 @@ const Nav = dynamic(() => import('../../components/Nav'), { ssr: false });
 const PostFooter = dynamic(() => import('../../components/FooterSection/PostFooter'), { ssr: false });
 
 export const getStaticProps = async ({ params }) => {
-   const projectList = project_data.find(project => project.id.toString() === params.id)
+   const projectList = project_data.filter(p => p.id.toString() === params.id);
    return {
       props: {
          project: projectList[0],
@@ -18,8 +18,8 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
-   const paths = project_data.map(project => ({
-      params: { id: project.id.toString() },
+   const paths = project_data.map(p => ({
+      params: { id: p.id.toString() },
    }));
    return { paths, fallback: false };
 }
@@ -51,7 +51,7 @@ const Code = () => {
 };
 
 
-export default ({ project }) => (
+const ProjectPage = ({ project }) => (
    <section id="projectWrapper" className="bg-black h-screen">
       <Nav/>
       <div className="flex mx-40 h-screen">
@@ -76,3 +76,5 @@ export default ({ project }) => (
       <PostFooter/>
    </section>
 );
+
+export default ProjectPage;
