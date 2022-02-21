@@ -7,17 +7,17 @@ const Nav = dynamic(() => import('../../components/Nav'), { ssr: false });
 const PostFooter = dynamic(() => import('../../components/FooterSection/PostFooter'), { ssr: false });
 
 export const getStaticProps = async ({ params }) => {
-   const projectList = JSON.stringify(project_data.filter(p => p.title.toString() === params.title));
+   const projectList = project_data.filter(p => p.title.toString() === params.title);
    return {
       props: {
-         title: projectList[1],
+         projectList,
       },
    };
 };
 
 export const getStaticPaths = async () => {
    const paths = project_data.map(p => ({
-      params: { project: p.title },
+      params: { project: p },
    }));
    return { paths, fallback: false };
 }
@@ -49,12 +49,12 @@ const Code = () => {
 };
 
 
-const ProjectPage = ({ params }) => (
+const ProjectPage = ({ projectList }) => (
    <section id="projectWrapper" className="bg-black h-screen">
       <Nav/>
       <div className="flex mx-40 h-screen">
          <div className="w-6/12 flex items-center px-10">
-            {/* <img src={params.image} /> */}
+            <img src={project.image} />
          </div>
          <div className="w-6/12 flex flex-col justify-center px-20">
             <div>
