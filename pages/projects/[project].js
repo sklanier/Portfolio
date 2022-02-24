@@ -23,8 +23,6 @@ export const getStaticPaths = async () => {
 }
 
 
-
-
 const codeText = `// React Component
 class HelloMessage extends React.Component {
    render() {
