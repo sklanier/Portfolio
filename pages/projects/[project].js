@@ -22,7 +22,6 @@ export const getStaticPaths = async () => {
    return { paths, fallback: false };
 }
 
-
 const codeText = `// React Component
 class HelloMessage extends React.Component {
    render() {
