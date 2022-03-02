@@ -6,6 +6,13 @@ import { project_data } from "../../data/project_data";
 const Nav = dynamic(() => import('../../components/Nav'), { ssr: false });
 const PostFooter = dynamic(() => import('../../components/FooterSection/PostFooter'), { ssr: false });
 
+export const getStaticPaths = async () => {
+   const paths = project_data.map(p => ({
+      params: { project: p },
+   }));
+   return { paths, fallback: false };
+}
+
 export const getStaticProps = async ({ params }) => {
    const projectList = project_data.filter(p => p.title.toString() === params.title);
    return {
@@ -15,12 +22,6 @@ export const getStaticProps = async ({ params }) => {
    };
 };
 
-export const getStaticPaths = async () => {
-   const paths = project_data.map(p => ({
-      params: { project: p },
-   }));
-   return { paths, fallback: false };
-}
 
 const codeText = `// React Component
 class HelloMessage extends React.Component {
