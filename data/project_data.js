@@ -30,6 +30,7 @@ export const project_data = [
         repo: 'https://github.com/sklanier/ReactJS-Metronome',
         image: '/assets/img/portfolio/fullsize/Metronome.png'
     },
+    
     {
         id: '3',
         title: 'Bubl',
