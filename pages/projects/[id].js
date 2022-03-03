@@ -7,17 +7,17 @@ const Nav = dynamic(() => import('../../components/Nav'), { ssr: false });
 const PostFooter = dynamic(() => import('../../components/FooterSection/PostFooter'), { ssr: false });
 
 export const getStaticPaths = async () => {
-   const paths = project_data.map(p => ({
-      params: { project: p.title },
+   const paths = project_data.map(({ id }) => ({
+      params: { id: `${id}` },
    }));
    return { paths, fallback: false };
 }
 
 export const getStaticProps = async ({ params }) => {
-   const project = project_data.filter(p => p.title.toString() === params.title);
+   const project = project_data.filter(p => p.id.toString() === params.id);
    return {
       props: {
-         project,
+         project: project[0],
       },
    };
 };
@@ -60,7 +60,7 @@ const ProjectPage = ({ project }) => (
             <div>
                <h1 className="text-2xl text-white font-bold mb-10">{project.title}</h1>
             </div>
-            {/* <p className="text-white projectDesc">{params.desc}</p> */}
+            <p className="text-white projectDesc">{project.desc}</p>
             <div className="flex flex-wrap mt-10">
                
             </div>
