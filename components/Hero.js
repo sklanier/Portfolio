@@ -1,4 +1,4 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Link from 'next/link';
 
 const Hero = () => (
     <section className="bg-primaryBlue">
@@ -13,7 +13,9 @@ const Hero = () => (
                     </h1>
                     <hr width="100px" className="m-auto"></hr>
                     <h1 className="heroSub leading-5">currently a full stack developer in Wisconsin. a few things i enjoy: breaking things. fixing things. learning things. building things. (not necessarily in that order.)</h1>
-                    <AnchorLink className="heroBtn" href="#projects">view my projects</AnchorLink>
+                    <Link href="/projects">
+                        <a className="heroBtn">view my projects</a>
+                    </Link>
                 </div>
             </div>
             <div id="hero" className="h-screen bg-hero-image bg-fixed bg-cover bg-center bg-no-repeat">
