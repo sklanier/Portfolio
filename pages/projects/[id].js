@@ -54,7 +54,6 @@ const ProjectPage = ({ project }) => (
       <div className="flex mx-40 h-screen">
          <div className="w-6/12 flex items-center px-10">
             <img src={project.image} />
-            {console.log(project)}
          </div>
          <div className="w-6/12 flex flex-col justify-center px-20">
             <div>
