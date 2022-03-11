@@ -14,6 +14,7 @@ export const getStaticPaths = async () => {
 }
 
 
+
 export const getStaticProps = async ({ params }) => {
    const project = project_data.filter(p => p.id.toString() === params.id);
    return {
