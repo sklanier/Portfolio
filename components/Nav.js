@@ -1,6 +1,7 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { useState } from 'react'
 
 const navStyles = {
   navBar: {
