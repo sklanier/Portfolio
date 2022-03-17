@@ -28,7 +28,7 @@ const About = () => (
                 <Skills/>
             </div>
             <div className="px-24 w-4/12 text-right">
-                <img src="assets/img/declare_bankruptcy.gif"/>
+                <img src=""/>
                 <h1 className="aboutTitle mt-80">talents</h1>
                 <p className="heroSub">
                     More than making stunning web content and software applications, 
