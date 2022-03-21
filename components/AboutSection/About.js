@@ -27,6 +27,7 @@ const About = () => (
                 <h1 className="aboutTitle underline text-center">technical skills</h1>
                 <Skills/>
             </div>
+            
             <div className="px-24 w-4/12 text-right">
                 <img src=""/>
                 <h1 className="aboutTitle mt-80">talents</h1>
